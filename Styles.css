@@ -42,9 +42,33 @@ ul{
     display: flex;
 }
 .nav-main ul li{
-    padding: 10px;
+    padding: 20px;
+}
+.nav-main ul li a i{
+    padding-right: 10px;
 }
 .Img1{
     display: flex;    
     justify-content: center;
+}
+/*SECCION DE SERVICIOS*/
+.servicios-container{
+    margin-top: 40px;
+}
+.servicios-container h1{    
+    text-align: center;
+}
+.Servicios{
+    background-color: #013;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Servicios div{
+    text-align: center;
+    padding: 15px;
+}
+.Servicios p{
+    padding-top: 20px;
 }
