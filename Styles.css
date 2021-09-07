@@ -11,6 +11,10 @@ body{
 }
 a {
     color: lightblue;
+    text-decoration: none;
+}
+ul li:hover{
+    background-color:#013;
 }
 ul{
     list-style: none;
@@ -51,7 +55,8 @@ ul{
     display: flex;    
     justify-content: center;
 }
-/*SECCION DE SERVICIOS*/
+
+    /*SECCION DE SERVICIOS*/
 .servicios-container{
     margin-top: 40px;
 }
@@ -69,6 +74,57 @@ ul{
     text-align: center;
     padding: 15px;
 }
+.Servicios h2{
+    padding-top: 25px;
+}
 .Servicios p{
     padding-top: 20px;
+}
+.Servicios img{
+    width: 150px;
+}
+    /*SECCION DE NOTICIAS*/
+.noticias-container{
+    background-color: #013;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows:repeat (2,1fr);
+    margin-top: 20px;
+    margin-bottom: 40px; 
+    text-align: center;
+}
+.Noticia1  h2{
+    text-align: center;
+}
+.Noticia2  h2{
+    text-align: center;
+}
+.Noticia3  h2{
+    text-align: center;
+}
+.Noticia4  h2{
+    text-align: center;
+}
+.noticias-container > div{
+    text-align: left;
+}
+.noticias-container  img{
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+}
+.noticias-container p, a{
+    padding: 10px;
+}
+.Noticia1 > a:hover{
+    opacity: .7;
+}
+.Noticia2 >a:hover{
+    opacity: .7;
+}
+.Noticia3 >a:hover{
+    opacity: .7;
+}
+.Noticia4 >a:hover{
+    opacity: .7;
 }
